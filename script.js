@@ -64,7 +64,7 @@ function handleGuess(userInput) {
     let resultHTML = "<ul>";
     correctGuesses.forEach(fighter => {
         resultHTML += `<li>${fighter.name} - ${fighter.rank}`;
-        resultHTML += `<img src="assets/${fighter.photo}" alt="${fighter.name} Photo" class="fighter-photo">`;
+        resultHTML += `<img src="/Assets/${fighter.photo}" alt="${fighter.name} Photo" class="fighter-photo">`;
         resultHTML += `</li>`;
     });
     resultHTML += "</ul>";
